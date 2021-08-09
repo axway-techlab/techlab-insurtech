@@ -1,0 +1,14 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../defaults.json"
+    },
+    "with": {
+      "name": "Good Food Good Life",
+      "backendBasepath": "http://goodfoodgoodlife.demo:2001/",
+      "summary": "",
+      "path": "/gfgl",
+      "version": "1.0"
+    }
+  }
+}

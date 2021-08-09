@@ -1,0 +1,43 @@
+{
+  "name": "Bêta tester program",
+  "organization": "API Development",
+  "description": "Bêta tester program: Use our applications with quota",
+  "state": "approved",
+  "enabled": true,
+  "credentials": [
+    {
+      "credentialType": "apikeys",
+      "secret": "e88c976c-052a-4e70-9ed1-0a661eee3289",
+      "corsOrigins": [
+        "*"
+      ],
+      "apiKey": "7e161384-9bbe-4320-9ad9-ccd790331215"
+    }
+  ],
+  "apis": [
+    {
+      "apiName": "Good Food Good Life",
+      "apiVersion": "1.0"
+    },
+    {
+      "apiName": "Health Breach",
+      "apiVersion": "1.0"
+    },
+    {
+      "apiName": "Pay as you Live",
+      "apiVersion": "3.0"
+    }
+  ],
+  "appQuota" : {
+    "restrictions" : [{
+      "api" : "*",
+      "method" : "*",
+      "type" : "throttle",
+      "config" : {
+        "messages" : "5",
+        "period" : "seconds",
+        "per" : "10"
+      }
+    } ]
+  }
+}

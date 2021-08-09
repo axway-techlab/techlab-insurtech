@@ -1,0 +1,14 @@
+{
+  "$merge": {
+    "source": {
+      "$import": "../defaults.json"
+    },
+    "with": {
+      "name": "Health Breach",
+      "backendBasepath": "http://healthbreach.demo:2002/",
+      "summary": "",
+      "path": "/breach",
+      "version": "1.0"
+    }
+  }
+}
