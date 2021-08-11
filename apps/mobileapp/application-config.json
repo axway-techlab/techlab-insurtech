@@ -1,0 +1,31 @@
+{
+  "name": "Mobile app program",
+  "organization": "API Development",
+  "description": "The mobile application using our apis get through this app",
+  "state": "approved",
+  "enabled": true,
+  "credentials": [
+    {
+      "credentialType": "apikeys",
+      "secret": "584f3701-2689-4e73-82a3-66f4d0cb0479",
+      "corsOrigins": [
+        "*"
+      ],
+      "apiKey": "341aa752-386e-4eae-b911-18a7ca53b905"
+    }
+  ],
+  "apis": [
+    {
+      "apiName": "Good Food Good Life",
+      "apiVersion": "1.0"
+    },
+    {
+      "apiName": "Health Breach",
+      "apiVersion": "1.0"
+    },
+    {
+      "apiName": "Pay as you Live",
+      "apiVersion": "3.0"
+    }
+  ]
+}

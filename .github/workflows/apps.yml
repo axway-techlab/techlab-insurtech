@@ -13,7 +13,8 @@ jobs:
     strategy:
       matrix:
         app:
-          - beta-tester
+          - mobileapp
+          - webapp
     steps:
       - name: Checkout the git repository
         uses: actions/checkout@v2
