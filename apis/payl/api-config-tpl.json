@@ -8,7 +8,7 @@
       "summary": "",
       "backendBasepath": "http://payl.demo:2003/",
       "path": "/payl",
-      "version": "3.0",
+      "version": "3.0-1",
       "image": "payl-old.png"
     }
   }
