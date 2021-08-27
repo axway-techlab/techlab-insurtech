@@ -13,19 +13,5 @@
       ],
       "apiKey": "78c6782e-bbbb-4686-9175-471975818113"
     }
-  ],
-  "apis": [
-    {
-      "apiName": "Good Food Good Life",
-      "apiVersion": "1.0"
-    },
-    {
-      "apiName": "Health Breach",
-      "apiVersion": "1.0"
-    },
-    {
-      "apiName": "Pay as you Live",
-      "apiVersion": "3.0"
-    }
   ]
 }

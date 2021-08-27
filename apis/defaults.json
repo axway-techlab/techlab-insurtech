@@ -35,13 +35,13 @@
   ],
   "applications": [
     {
-      "name": "injection",
+      "name": "Web app program",
       "enabled": true,
       "state": "approved",
       "oauthResources": []
     },
     {
-      "name": "Human",
+      "name": "Mobile app program",
       "enabled": true,
       "state": "approved",
       "oauthResources": []
