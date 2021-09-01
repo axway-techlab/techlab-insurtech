@@ -1,0 +1,17 @@
+{
+  "name": "Human application",
+  "organization": "API Development",
+  "description": "Get access to any metrics you produce, as a human",
+  "state": "approved",
+  "enabled": true,
+  "credentials": [
+    {
+      "credentialType": "apikeys",
+      "secret": "aab1f11a-5b62-4d07-913d-16184a50be68",
+      "corsOrigins": [
+        "*"
+      ],
+      "apiKey": "7b4a6118-242d-4fe9-b01f-5a28756be0d2"
+    }
+  ]
+}

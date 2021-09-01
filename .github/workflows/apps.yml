@@ -15,6 +15,7 @@ jobs:
         app:
           - mobileapp
           - webapp
+          - human
     steps:
       - name: Checkout the git repository
         uses: actions/checkout@v2

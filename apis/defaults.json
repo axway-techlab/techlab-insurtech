@@ -41,6 +41,12 @@
       "oauthResources": []
     },
     {
+      "name": "Human",
+      "enabled": true,
+      "state": "approved",
+      "oauthResources": []
+    },
+    {
       "name": "Mobile app program",
       "enabled": true,
       "state": "approved",
