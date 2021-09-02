@@ -8,7 +8,7 @@
       "backendBasepath": "http://goodfoodgoodlife.demo:2001/",
       "summary": "",
       "path": "/gfgl",
-      "version": "1.0-6"
+      "version": "1.0-7"
     }
   }
 }
