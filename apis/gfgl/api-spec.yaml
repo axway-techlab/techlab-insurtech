@@ -11,7 +11,7 @@ servers:
 tags:
   - name: coupon
 paths:
-  '/coupon/{user_id}':
+  /coupon:
     get:
       summary: Get a coupon from our partners
       tags: []
@@ -25,12 +25,13 @@ paths:
               examples: {}
       operationId: get-gfgl-coupon
       description: Get a coupon from our partners
-    parameters:
-      - schema:
-          type: string
-        name: user_id
-        in: path
-        required: true
+#      parameters:
+#        - schema:
+#            type: string
+#          in: query
+#          name: user_id
+#          required: true
+    parameters: []
 components:
   schemas:
     RangeDate:
@@ -84,4 +85,3 @@ components:
           format: email
   securitySchemes: {}
   examples: {}
-
